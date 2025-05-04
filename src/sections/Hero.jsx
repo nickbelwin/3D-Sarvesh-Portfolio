@@ -5,6 +5,7 @@ import HeroExperience from '../components/HeroModels/HeroExperience';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import LazyImage from '../components/LazyImage';
+import AnimatedCounter from '../components/AnimatedCounter';
 
 
 const Hero = () => {
@@ -32,7 +33,7 @@ const Hero = () => {
                     <div className='flex flex-col gap-7'>
                         {/* <Suspense fallback={<div>Loading Room...</div>}> */}
                             <div className='hero-text'>
-                                <h1 className='hero-line-1'>Shaping
+                                <h4 className='hero-line-1'>Shaping
                                     <span className='slide'>
                                     <span className='wrapper'>
                                         {words?.map((word, idx) => (
@@ -44,12 +45,12 @@ const Hero = () => {
                                         ))}
                                     </span>
                                     </span>
-                                </h1>
-                                <h1 className='hero-line-2'>into Real Projects</h1>
-                                <h1 className='hero-line-3'>that Deliver Results.</h1>
+                                </h4>
+                                <h4 className='hero-line-2'>into Real Projects</h4>
+                                <h4 className='hero-line-3'>that Deliver Results.</h4>
                             </div>
                         {/* </Suspense> */}
-                        <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
+                        <p className='text-white-50 md:text-lg relative z-10 pointer-events-none'>
                             Hi, I'm Sarvesh, a Software Developer based in Mumbai with passion for code.
                         </p>
                         <Button 
@@ -66,6 +67,7 @@ const Hero = () => {
                     </div>
                 </figure>
             </div>
+            <AnimatedCounter/>
         </section>
     );
 }

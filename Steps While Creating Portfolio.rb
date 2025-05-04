@@ -32,7 +32,7 @@ Creating React App Using Vite
         - follow path '/src/index.css'
 4. GLB 3D Models =>
     # GLB models are given in path: public/models
-    # To use these models first need to convert into JSX.
+    # To use these models first need to convert into JSX. Keep original glb as it is.
     # To convert this go to the path in terminal
     - Rum Command: npx gltfjsx optimized-room.glb
     # It is a file format that allows to render 3D scans in models.

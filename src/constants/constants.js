@@ -29,10 +29,10 @@ const navLinks = [
   ];
   
   const counterItems = [
-    { value: 2, suffix: "+", label: "Years of Experience" },
-    { value: 5, suffix: "+", label: "Completed Projects" },
-    { value: 200, suffix: "+", label: "Professional Certification" },
-    { value: 100, suffix: "%", label: "Commitment to Learning" },
+    { id: 1, value: 1, suffix: "+", label: "Years of Experience" },
+    { id: 2, value: 8, suffix: "+", label: "Completed Projects" },
+    // { id: 3, value: , suffix: "+", label: "Technologies Used" },
+    { id: 4, value: 1600, suffix: "+", label: "Users Impacted" },
   ];
   
   const logoIconsList = [
